@@ -4,7 +4,7 @@ public class SeriesSummation2 {
         int numerator = 1;
         int denominator = 1;
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 10; i++) { //this series summation has an even better time complexity
             sum += (double)numerator / (denominator * denominator);
             numerator += 2;
             denominator += 1;
