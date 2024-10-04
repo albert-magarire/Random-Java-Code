@@ -4,7 +4,7 @@ public class SeriesSummation {
         int numerator = 1;
         int denominator = 1;
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 10; i++) { //one loop to reduce time complexity
             if (i % 2 == 0) {
                 sum += (double)numerator / (denominator * denominator);
             } else {
