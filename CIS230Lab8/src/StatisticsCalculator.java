@@ -10,6 +10,7 @@ public class StatisticsCalculator {
             numbers[i] = scanner.nextDouble();
         }
 
+        //use the java mean method to find the average of the values stored in the array
         double meanResult = mean(numbers);
         double deviationResult = deviation(numbers);
         System.out.println("The mean is " + meanResult);
