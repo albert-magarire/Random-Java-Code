@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class QuadraticSolver {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        //getting user input and assigning variables
         System.out.println("The quadratic equation is in the format ax^2 + bx + c = 0");
         System.out.print("Enter value for a: ");
         double a = scanner.nextDouble();
