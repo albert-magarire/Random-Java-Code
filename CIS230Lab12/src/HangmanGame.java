@@ -3,6 +3,7 @@ import java.util.Random;
 
 public class HangmanGame {
     public static void main(String[] args) {
+        //create an array that will store the values
         String[] words = {"write", "that", "java", "programming", "hangman"};
         Random random = new Random();
         Scanner scanner = new Scanner(System.in);
