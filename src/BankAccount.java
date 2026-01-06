@@ -1,6 +1,6 @@
 public class BankAccount {
-    private String owner;
-    private double balance;
+    protected String owner;
+    protected double balance;
 
     public BankAccount(String owner, double startingBalance){
         this.owner = owner;
