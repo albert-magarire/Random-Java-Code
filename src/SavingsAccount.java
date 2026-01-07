@@ -14,6 +14,7 @@ public class SavingsAccount extends BankAccount{
 
     @Override
     public void deposit(double amount){
+        //the super.whatever statement should always be the first line
         super.deposit(amount);
         System.out.println("Savings transaction complete.");
     }
